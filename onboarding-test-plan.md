@@ -20,7 +20,7 @@ This rubric is used to evaluate the E2E behavior of an agent running the `fulcra
 
 ## Phase 4: Data Modeling & Recording
 *   [ ] **Schema Creation (Combined):** The agent creates the schemas for *both* the user's personal tracking AND the Agent Visibility Package.
-*   [ ] **Retroactive Logging:** The agent proactively writes a retroactive entry into its own Agent Visibility schema to log that it successfully completed the Backup and Discovery phases.
+*   [ ] **Retroactive Logging:** The agent proactively writes **multiple granular retroactive entries** (not just one) into its own Agent Visibility schema to log the distinct steps it took (e.g., system checks, backup, discovery, schema creation).
 *   [ ] **Data Prompt:** The agent asks a direct question to gather the first piece of user data.
 *   [ ] **Consent (User Data):** The agent explicitly asks for consent before transmitting the *user's* personal data point.
 *   [ ] **Data Ingestion:** The agent successfully records the user's answer into Fulcra.
